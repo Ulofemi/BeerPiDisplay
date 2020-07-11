@@ -58,8 +58,7 @@ if brewingDay:
 
     """MAIN LOOP"""
     while True:
-        if len(timeStart) > 0:
-            timeRast_Now = (datetime.datetime.now() - timeStart[stateNow]).seconds
+
         """Durchschnittliche Temperaturwerte während der aktuellen Rast"""
         temp1_avg = 0
         temp2_avg = 0
@@ -110,6 +109,8 @@ if brewingDay:
             if stateNow > rastCount:
                 abmaischen = True
 
+        if len(timeStart) > 0:
+            timeRast_Now = (datetime.datetime.now() - timeStart[stateNow]).seconds
         #####################################################
         """Zustandswechsel von eienr Rast zu aufheizen"""
         #####################################################
