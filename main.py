@@ -91,7 +91,7 @@ if brewingDay:
                  'time2': time2
                  })
             timeString = F.datetimeNowString().split('-')[1]
-            df.to_csv(dateString + '/' + dateString + '_' + timeString + '_' + str(stateNow) + '.csv')
+            df.to_csv(dateString + '/' + dateString + '_' + timeString + '_aufheizen.csv')
 
             """Listen leeren"""
             temp1.clear()
@@ -122,8 +122,9 @@ if brewingDay:
                  'temp2': temp2,
                  'time2': time2
                  })
-            timeString = F.datetimeNowString().split('-')[1]
-            df.to_csv(dateString + '/' + dateString + '_' + timeString + '_' + str(stateNow) + '.csv')
+            if len(df.index) > 1:
+                timeString = F.datetimeNowString().split('-')[1]
+                df.to_csv(dateString + '/' + dateString + '_' + timeString + '_rast' + str(stateNow) + '.csv')
 
             """Listen leeren"""
             temp1.clear()
