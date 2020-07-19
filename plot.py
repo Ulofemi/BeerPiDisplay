@@ -21,7 +21,10 @@ fig, ax = plt.subplots(1, 1, sharex=True, figsize=(29, 13))
 
 """Daten einlesen"""
 # Ordner festlegen
-DIR = '20200711'
+DIR = input("Enter directory:")
+if not os.path.exists(DIR):
+    exit('Wrong directory')
+
 csvList = getFiles(DIR)
 
 """Listen für Temperatur und Zeit"""

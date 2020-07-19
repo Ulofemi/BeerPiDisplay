@@ -31,10 +31,10 @@ time_all.append(timeRast_2 * 60)
 temp_all.append(tempRast_2)
 
 """3. Rast"""
-tempRast_3 = 27
-timeRast_3 = 0.8
-time_all.append(timeRast_3 * 60)
-temp_all.append(tempRast_3)
+#tempRast_3 = 27
+#timeRast_3 = 0.8
+#time_all.append(timeRast_3 * 60)
+#temp_all.append(tempRast_3)
 
 """4. Rast"""
 #tempRast_4 = 27
