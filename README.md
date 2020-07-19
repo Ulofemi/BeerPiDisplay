@@ -21,3 +21,4 @@
 ## Voraussetzungen
 * Der I2C Display sollte angeschlossen richtig angeschlossen sein [-->](https://indibit.de/raspberry-pi-oled-display-128x64-mit-python-ansteuern-i2c/)
 * Die Temperataursensoren sollten angeschlossen sein und funktionieren [-->](https://tutorials-raspberrypi.de/raspberry-pi-temperatur-mittels-sensor-messen/)
+  * Pandas: sudo apt-get install python3-pandas
