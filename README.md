@@ -20,7 +20,7 @@
 
 ## Voraussetzungen
 * Der I2C Display sollte angeschlossen richtig angeschlossen sein [-->](https://indibit.de/raspberry-pi-oled-display-128x64-mit-python-ansteuern-i2c/)
-   * <sudo raspi-config>
+   * <'sudo raspi-config'>
    * $ sudo apt-get install python-smbus i2c-tools git python-pil
    * $ sudo reboot
    * $ i2cdetect -y 1
