@@ -14,25 +14,25 @@ temp_all = []
 
 """Einmaischen"""
 tempRast_0 = 24
-timeRast_0 = 1
+timeRast_0 = 0.5
 time_all.append(timeRast_0 * 60)
 temp_all.append(tempRast_0)
 
 """1. Rast"""
 tempRast_1 = 25
-timeRast_1 = 2
+timeRast_1 = 0.6
 time_all.append(timeRast_1 * 60)
 temp_all.append(tempRast_1)
 
 """2. Rast"""
 tempRast_2 = 26
-timeRast_2 = 1
+timeRast_2 = 0.7
 time_all.append(timeRast_2 * 60)
 temp_all.append(tempRast_2)
 
 """3. Rast"""
 tempRast_3 = 27
-timeRast_3 = 2
+timeRast_3 = 0.8
 time_all.append(timeRast_3 * 60)
 temp_all.append(tempRast_3)
 
