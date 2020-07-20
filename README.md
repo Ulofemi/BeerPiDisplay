@@ -33,7 +33,11 @@ Am besten mal Googlen :-) Hier sind ein paar Tipps:
   * `git clone https://github.com/adafruit/Adafruit_Python_GPIO.git`
   * `cd Adafruit_Python_GPIO`
   * `sudo python3 setup.py install`
- 
+
+  * `git clone https://github.com/adafruit/Adafruit_Python_SSD1306.git`
+  * `cd Adafruit_Python_SSD1306`
+  * `sudo python3 setup.py install`
+
 * Die Temperataursensoren sollten angeschlossen sein und funktionieren [-->](https://tutorials-raspberrypi.de/raspberry-pi-temperatur-mittels-sensor-messen/)
    * `cd /sys/bus/w1/devices/`
 * Pandas: `sudo apt-get install python3-pandas`
