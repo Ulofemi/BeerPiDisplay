@@ -28,6 +28,7 @@ Am besten mal Googlen :-) Hier sind ein paar Tipps:
  
 * Für python3: schau mal [hier](https://github.com/adafruit/Adafruit_Python_GPIO)
   * `sudo apt install python3-pip`
+  * `sudo apt-get install python3-dev python3-rpi.gpio`
   * `sudo apt-get update`
   * `sudo apt-get install build-essential python-pip python-dev python-smbus git`
   * `git clone https://github.com/adafruit/Adafruit_Python_GPIO.git`
